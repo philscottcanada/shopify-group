@@ -1,0 +1,20 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 1rem;
+    border-bottom: 2px solid #F6F6F7;
+    &__logo{
+        height: 3.5rem;
+        width: auto;
+    }
+    &__search{
+        height: 2.25rem;
+        width: auto;
+    }
+    &__avatar{
+        height: 2.5rem;
+        width: auto;
+    }
+}
