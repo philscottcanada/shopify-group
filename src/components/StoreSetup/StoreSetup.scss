@@ -1,0 +1,23 @@
+.setup{
+    margin: 0 5rem;
+    &__text{
+        width:31rem;
+        padding: 3.5rem 0;
+    }
+    &__store{
+        font-size: 1rem;
+    }
+    &__menu{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin: 0;
+    }
+    &__card{
+        width: 29rem;
+    }
+    &__back-button{
+        width:1.25rem;
+    }
+}

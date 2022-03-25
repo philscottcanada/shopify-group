@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import "./Main.scss";
 import NavLeft from "../components/NavLeft/NavLeft";
 import NavRight from "../components/NavRight/NavRight";
@@ -10,11 +11,11 @@ import comp4 from "../assets/Apps.png";
 function Main() {
   return (
     <div className="main">
-      <NavLeft />
+      {/* <NavLeft /> */}
       <div className="main__wrapper">
         <img src={text} alt="text" className="main__text" />
         <div className="main__one">
-          <img className="main__comp1" src={comp1} alt="1" />
+          <Link to="/store"><img className="main__comp1" src={comp1} alt="1" /></Link>
           <img className="main__comp2" src={comp2} alt="2" />
         </div>
         <div className="main__two">
@@ -22,7 +23,7 @@ function Main() {
           <img className="main__comp4" src={comp4} alt="4" />
         </div>
       </div>
-      <NavRight />
+      {/* <NavRight /> */}
     </div>
   );
 }

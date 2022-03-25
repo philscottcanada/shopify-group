@@ -36,7 +36,7 @@
     transform: rotate(360deg);
   }
 }
-// .app{
-//   display: flex;
-//   // flex-direction: column
-// }
+.app{
+  display: flex;
+  justify-content:space-between;
+}

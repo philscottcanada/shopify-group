@@ -3,6 +3,7 @@ import logo from '../../assets/Inner.png'
 import search from '../../assets/Search.png'
 import User from '../../assets/User.png'
 
+
 function Nav(){
     return(
         <ul className='Nav'>
