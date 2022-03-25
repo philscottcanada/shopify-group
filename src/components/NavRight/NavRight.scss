@@ -1,0 +1,22 @@
+.navRight{
+    width:27.5%;
+    &__one{
+        display:flex;
+        justify-content:center;
+        margin-top: 4rem;
+        width:45%;
+        padding-bottom: 21rem;
+    }
+    &__two{
+        display: flex;
+        width:80%;
+        &__button{
+            width:45%;
+            height: 2rem;
+        }
+        &__buttontwo{
+            height: 2rem;
+            margin-left: 1rem;
+        }
+    }
+}
