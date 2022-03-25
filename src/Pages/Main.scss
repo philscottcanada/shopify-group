@@ -1,4 +1,27 @@
 .main{
-    width: 15rem;
-    height: auto;
+    // width: 15rem;
+    display: flex;
+    &__comp1, &__comp2, &__comp3, &__comp4{
+        width: 15rem;
+        margin-left: 0.5rem;
+    }
+    &__one{
+        margin-bottom: 0.5rem;
+        // display: flex;
+        flex-direction: row;
+    }
+    &__two{
+        margin-bottom: 3rem;
+        // display: flex;
+        flex-direction: row;
+    }
+    &__text{
+        width:31rem;
+        padding-bottom: 4rem;
+    }
+    &__wrapper{
+        margin-left: 5rem;
+        padding-top: 4rem;
+        margin-right: 5rem;
+    }
 }
