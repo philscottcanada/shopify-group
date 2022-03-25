@@ -1,0 +1,19 @@
+.setup{
+    margin: 0 5rem;
+    &__title{
+        padding: 5rem 0;
+    }
+    &__menu{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+    &__back-button{
+        // background-color: black;
+        color: black;
+    }
+    &__card{
+        width: 37rem;
+    }
+}
