@@ -12,16 +12,15 @@ class App extends Component {
   
   render(){
     return (
-      // <div className="app">
       <Router>
         <Nav />
         <div className="app">
-        <NavLeft />
-          <Switch>
-            <Route path="/" exact component={Main} />
-            <Route path="/store/" component={StoreSetup} />
-          </Switch>
-        <NavRight />
+          <NavLeft />
+            <Switch>
+              <Route path="/" exact component={Main} />
+              <Route path="/store/" component={StoreSetup} />
+            </Switch>
+          <NavRight />
         </div>
       </Router>
     );
