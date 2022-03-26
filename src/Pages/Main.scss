@@ -2,8 +2,11 @@
     // width: 15rem;
     display: flex;
     &__comp1, &__comp2, &__comp3, &__comp4{
-        width: 15rem;
+        width: 14.5rem;
         margin-left: 0.5rem;
+    }
+    &__link{
+        border: 3px dashed red;
     }
     &__one{
         margin-bottom: 0.5rem;

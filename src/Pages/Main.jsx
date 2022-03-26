@@ -12,7 +12,7 @@ function Main() {
       <div className="main__wrapper">
         <img src={text} alt="text" className="main__text" />
         <div className="main__one">
-          <Link to="/store"><img className="main__comp1" src={comp1} alt="1" /></Link>
+          <Link to="/store"><img className="main__comp1 main__link" src={comp1} alt="1" /></Link>
           <img className="main__comp2" src={comp2} alt="2" />
         </div>
         <div className="main__two">
